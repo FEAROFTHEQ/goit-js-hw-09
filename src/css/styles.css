@@ -17,3 +17,16 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+ul, li{
+  list-style-type: none;
+}
+
+.main-list-item:nth-child(odd){
+  margin-top: 30px;
+}
+
+.main-list-item{
+  margin-left: 50px;
+}
+
